@@ -128,12 +128,12 @@ a {
   
 }
 #survey {
-  width: 80%;
+  width: 100px;
   min-width: 10vw;
 }
 
 #step-ladder {
-  width: 100px;
+  width: 100vw;
   min-width: 10vw;
 }
 
