@@ -10,8 +10,14 @@
   padding: 0;
 }
 
+body {
+  width: 100%;
+  height: 100%:
+}
+
 nav {
   width: 100vw;
+  min-width: 50vw;
   height: 5vh;
 }
 
@@ -29,14 +35,17 @@ nav > ul {
 
 nav > ul > li {
   color: white;
-  margin: 0 2rem;
-  padding: 0.2rem;
-  display: block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
   border: black 2px;
 }
 
 .nav-list a {
-  display: block;
+  display: inline-block;
   font-size: 2.2rem;
   padding: 2rem;
 }
@@ -51,6 +60,7 @@ a {
 #welcome-section {
   background-color: black;
   width: 100vw;
+  min-width: 50vw;
   height: 100vh;
 }
 
@@ -78,6 +88,7 @@ a {
 #projects {
   width: 100vw;
   max-width: 100vw;
+  min-width: 50vw;
   height: 100vh;
   background-color: purple;
 }
@@ -116,15 +127,21 @@ a {
   padding: auto;
   
 }
+#survey {
+  width: 200px;
+  min-width: ;
+  max-width: :
+}
 
 #step-ladder {
-  width: 200px;
-  max-width: 200px;
+  width: 150px;
+  min-width: 10vw;
 }
 
 #contact {
   width: 100vw;
   max-width: 100vw;
+  min-width: 50vw;
   height: 55vh;
   background-color: black;
 }
