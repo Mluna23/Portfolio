@@ -129,8 +129,7 @@ a {
 }
 #survey {
   width: 180px;
-  min-width: ;
-  max-width: :
+  min-width: 10vw;
 }
 
 #step-ladder {
