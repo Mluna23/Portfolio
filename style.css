@@ -1,0 +1,163 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  height: 5vh;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  background-color: purple;
+  list-style: none;
+}
+
+nav > ul > li {
+  color: white;
+  margin: 0 2rem;
+  padding: 0.2rem;
+  display: block;
+  border: black 2px;
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: helvetica, sans-serif;
+}
+
+#welcome-section {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+#welcome-section > h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 15%;
+  font-family: sans-serif, helvetica;
+  font-size: 75px;
+  color: white;
+}
+
+#welcome-section > p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: auto;
+  margin: auto;
+  font-family: sans-serif, helvetica;
+  color: white;
+  font-size: 25px;
+}
+
+#projects {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+#projects > h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-family: sans-serif, helvetica;
+  font-size: 30px;
+  padding-bottom: 5%;
+  font-weight: 300%;
+}
+
+.project-grid {
+  display: grid;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  grid-template-columns: auto auto;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+.project-title {
+  color: black;
+  background-color: gray;
+  text-align: center;
+}
+
+.project-tile {
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: auto;
+  
+}
+
+#step-ladder {
+  width: 200px;
+  max-width: 200px;
+}
+
+#contact {
+  width: 100vw;
+  max-width: 100vw;
+  height: 55vh;
+  background-color: black;
+}
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  font-family: sans-serif, helvetica;
+  font-size: 50px;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.social-icons {
+  display: grid;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  grid-template-columns: 5px 5px 5px;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  max-width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: black;
+  border: 3px solid white;
+  text-align: center;
+  margin-top: 100px;
+}
