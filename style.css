@@ -128,9 +128,9 @@ a {
   
 }
 #survey {
-  width: 100%;
-  min-width: 10vw;
- max-width: 100%;
+  width: 150px;
+  min-width: 10%;
+ max-width: 300%;
 }
 
 #step-ladder {
